@@ -5,11 +5,12 @@ Este repositório contém o código e a documentação para um projeto de predi�
 *******
 ## Sumário
 
- 1. [Autores](#autores)
- 2. [Requisitos do Ambiente](#requisitos)
- 3. [Objetivo do Projeto](#objetivo)
- 4. [Base de Dados](#dataset)
- 5. [Modelos Implementados](#modelos)
+ - [Autores](#autores)
+ - [Requisitos do Ambiente](#requisitos)
+ - [Objetivo do Projeto](#objetivo)
+ - [Base de Dados](#dataset)
+ - [Modelos Implementados](#modelos)
+   - [Rede Neural](#rede-neural)
 
 *******
 
@@ -17,30 +18,44 @@ Este repositório contém o código e a documentação para um projeto de predi�
   
 ## Autores 
 
+As seguintes pessoas trabalharam no desenvolvimento do projeto:
+
+- [Breno Mota do Nascimento](https://github.com/Escumalha)
+- [Francisca Gardênia Silva Estevam](https://github.com/gardeniaestevam)
+- [Julyanderson Alves Cavalcanti de Lima](https://github.com/ansderson122)
+- [Murillo Inácio da Costa Silva](https://github.com/likotrico)
+- [Vinicius Ramon Barros Teles Silva](https://github.com/ViniRamon1)
 
 <div id = 'requisitos' />
 
 ## Requisitos do Ambiente
 
-* É necessário instalar as bibliotecas de cada notebook, optarmos por dividir os notebook para cada modelo para facilitar a vizualização e o trabalho em equipe da parte analitica
+Para a execução do projeto sem nenhum empecilho, é necessário instalar as bibliotecas de cada notebook. Foi definido pela equipe que cada modelo teria um notebook para para cada modelo a fim facilitar a execução e vizualização dos resultados individuais dos modelos e possibilitar um melhor trabalho em equipe da parte analitica.
 
 <div id = 'objetivo' />
 
 ## Objetivo do Projeto
 
-O objetivo deste projeto é criar modelos de predição robustos e eficientes para resolver um problema específico. Cada modelo foi desenvolvido por um membro da equipe, utilizando abordagens e algoritmos distinto
+O objetivo deste projeto é criar modelos de predição robustos e eficientes para análise de sentimentos. Cada modelo foi desenvolvido por um membro da equipe, utilizando abordagens e algoritmos distintos.
 
 <div id = 'dataset' />
 
 ## Base de Dados
 
-* O dataset utilizado neste projeto é o [Financial Sentiment Analysis](https://www.kaggle.com/datasets/sbhatti/financial-sentiment-analysis) disponível no Kaggle. Certifique-se de fazer o upload do arquivo CSV para o ambiente de trabalho do Google Colab ou diretório do Jupyter Notebook.
+A base de dados utilizada é a [Financial Sentiment Analysis](https://www.kaggle.com/datasets/sbhatti/financial-sentiment-analysis) que pode ser encontrada no Kaggle. Certifique-se de fazer o upload do arquivo CSV para o ambiente de trabalho do Google Colab ou diretório do Jupyter Notebook.
+
+A base de dados é destinada para a análise de sentimentos no mercado financeiro e é a combinação de duas bases de dados diferentes, a *FiQA* e a *Financial PhraseBank*. Possui 5841 sentenças, sem valores nulos, sendo composta por 54% de sentenças com sentimentos neutros, 32% com sentimentos positivos e 15% com sentimentos negativos.
+
 
 <div id = 'modelos' />
 
 ## Modelos Implementados
 
-### 1. Rede Neural
+A segeuir, tem-se um apanhado de cada modelo desenvolvido no projeto, contendo detalhes sobre a técnica utilizada, parâmetros e resultados obtidos. 
+
+<div id='rede-neural'/>
+ 
+### Rede Neural
 
 * **Membro Responsável:** Murilo Ínacio
 
@@ -58,3 +73,4 @@ O objetivo deste projeto é criar modelos de predição robustos e eficientes pa
 
 * **Membro Responsável:** Breno
 
+*******
