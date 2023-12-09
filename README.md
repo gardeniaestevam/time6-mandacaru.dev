@@ -76,7 +76,7 @@ A segeuir, tem-se um apanhado de cada modelo desenvolvido no projeto, contendo d
 
 Aqui, além das etapas de pré-processamento descritas, também foi aplicada a remoção de caracteres numéricos e a tradução das sentenças para o inglês. As classes de sentimentos foram *dummyficadas* com a ajuda da biblioteca [Keras](https://keras.io/). A *dummyficação* é substituir os rótulos das classes por outros a fim de facilitar a análise dos dados. 
 
-A base de dados foi dividida em 90% para treino e 10% para teste. Foi utilizada a Rede Neural Sequencial disponível no Keras. O modelo foi criado com duas camadas, *drop out* de 40%, 25 épocas, *batch size* de 32. Uma acurácia de 0.6407 foi obtida com esses parâmetros. A figura abaixo mostra um gráfica com os valores de acurácia a cada época. 
+A base de dados foi dividida em 90% para treino e 10% para teste. Foi utilizada a Rede Neural Sequencial disponível no Keras. O modelo foi criado com três camadas, a primeira contendo quatro neurônios e função de ativação *sigmoid*, a segunda camada é uma camada de *drop out* com uma taxa de 40% e a última camada possui três neurônios com função de ativação softmax. O modelo possui 25 épocas, *batch size* de 32. Uma acurácia de 0.6407 foi obtida com esses parâmetros. A figura abaixo mostra um gráfica com os valores de acurácia a cada época. 
 
 ![acuracia-rede-neural](https://github.com/gardeniaestevam/time6-mandacaru.dev/assets/72508388/f775acd5-d900-4915-8f20-f7d741412409)
 
@@ -127,7 +127,7 @@ Negativo | 0
 Neutro | 1
 Positivo | 2
 
-A figura a seguir mostra a matriz de confusão obtida.
+Foram obtidas acurácia de 0,68, precisão de 0,65, recall de 0,53, f1 de 0,55 e a figura a seguir mostra a matriz de confusão obtida.
 
 ![matriz-gb](https://github.com/gardeniaestevam/time6-mandacaru.dev/assets/72508388/9d2ba139-13f3-4183-bfdc-b441fc382d7e)
 
@@ -138,6 +138,15 @@ O gráfico de dispersão do modelo pode ser visto na figura abaixo.
 <div id='xgb'/>
 
 ### XGboost
+
+O pré-processado utilizado no modelo anteior foi utilizado nesse modelo. Foram obtidas acurácia de 0,68, precisão de 0,57, recall de 0,54, f1 de 0,55 e a figura a seguir mostra a matriz de confusão obtida.
+
+![matriz-xgb](https://github.com/gardeniaestevam/time6-mandacaru.dev/assets/72508388/c52c85b8-74f4-4e33-8875-6672884b5c3f)
+
+O gráfico de dispersão do modelo pode ser visto na figura abaixo.
+
+![dispersao-xgb](https://github.com/gardeniaestevam/time6-mandacaru.dev/assets/72508388/2d1c2a64-758c-48c8-a943-4bd9de70fbfc)
+
 
 * **Membro Responsável:** Vinícius Ramon
 
