@@ -15,7 +15,6 @@ Este repositório contém o código e a documentação para um projeto de predi�
    - [Gradient Boosting](#gb)
    - [XGBoost](#xgb)
    - [Random Forest](#rf)
- - [Perspectiva do Produto](#produto)
 
 *******
 
@@ -154,11 +153,16 @@ O gráfico de dispersão do modelo pode ser visto na figura abaixo.
 
 ### Random Forest
 
+A técnica de lematização foi aplicada nesse modelo. Além disso, *POS Tagging* também foi aplicado. *POS* é uma sigla para *Part of Speech* e essa técnica é a assossiação cada palavra a sua classe gramatical.
+
+A base de dados foi dividida em 90% para treino e 10% para teste e foi obtido uma acurácia de 0,782, precisão de 0,782 e recall de 0,782. A matriz de confusão obtida pode ser vista na figura abaixo. 
+
+![matriz-rf](https://github.com/gardeniaestevam/time6-mandacaru.dev/assets/72508388/133ec9cb-74fa-4b72-834a-08dd4e23f34d)
+
+Um gráfico com as *pos taggs* mais importantes para a classificação pode ser visto na figura abaixo.
+
+![top-postag-rf](https://github.com/gardeniaestevam/time6-mandacaru.dev/assets/72508388/2d9b65fa-1d2a-4b88-9bd3-6aa957ee6068)
+
 * **Membro Responsável:** Breno
-
-<div id='produto'/>
-
-## Perspectiva do Produto
-
 
 *******
